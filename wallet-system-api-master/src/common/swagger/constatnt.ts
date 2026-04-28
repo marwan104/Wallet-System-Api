@@ -1,0 +1,17 @@
+export enum SwaggerTags {
+  AUTH = 'Auth',
+  USER = 'Users',
+  APP_SETTING = 'App settings',
+  CONNECTION = 'Connections',
+  CURRENCY = 'Currenies',
+  FORGET_PASSWORD = 'Forget password',
+  OTP = 'Otp',
+  STATISTICS = 'Statistics',
+  ADMIN = 'Admins',
+  NOTIFICATION = 'Notifications',
+  SYSTEM_ADMIN = 'System-admins',
+  SETTINGS = 'SETTINGS',
+  WALLET = 'Wallets',
+  WALLET_TRANSACTION = 'Wallet Transactions',
+  TRANSACTION_CATEGORY = 'Transaction Categories',
+}

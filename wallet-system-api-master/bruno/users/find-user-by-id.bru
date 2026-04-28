@@ -1,0 +1,17 @@
+meta {
+  name: find-user-by-id
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3000/api/v1/users/67a348ec32e27c0ec9a93a2d
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Mohamed"
+  }
+}

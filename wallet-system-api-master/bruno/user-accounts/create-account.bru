@@ -1,0 +1,17 @@
+meta {
+  name: create-account
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/v1/user-accounts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId": "67a348ec32e27c0ec9a93a2d"
+  }
+}

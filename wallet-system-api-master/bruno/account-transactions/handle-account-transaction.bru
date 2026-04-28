@@ -1,0 +1,20 @@
+meta {
+  name: handle-account-transaction
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/v1/account-transactions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userId": "",
+    "amount": 10,
+    "transactionId": "10xyz",
+    "type": "charge"
+  }
+}
